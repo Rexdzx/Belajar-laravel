@@ -12,7 +12,7 @@ class PostController extends Controller
         
     return view('blog', [
         "title" => "Blog",
-        "posts"  => Post::all()
+        "posts"  => Post::all() //diambil dari sini yang di web
     ]);
     }
 
